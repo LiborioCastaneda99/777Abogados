@@ -49,88 +49,6 @@
     </div>
   </div>
   <div class="main main-raised">
-    <div class="section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 ml-auto mr-auto">
-            <h4 class="description text-center">777Abogados is a Bootstrap UI Kit with a fresh, new design inspired by Google&apos;s Material Design. You asked for it, so we built it. It&apos;s a great pleasure to introduce to you the material concepts in an easy to use and beautiful set of components.</h4>
-          </div>
-        </div>
-        <div class="features-1">
-          <div class="row">
-            <div class="col-md-4">
-              <div class="info">
-                <div class="icon icon-rose">
-                  <i class="material-icons">apps</i>
-                </div>
-                <h4 class="info-title">Huge Number of Components</h4>
-                <p>Every element that you need in a product comes built in as a component. All components fit perfectly with each other and can take variations in colour.</p>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="info">
-                <div class="icon icon-info">
-                  <i class="material-icons">view_day</i>
-                </div>
-                <h4 class="info-title">Multi-Purpose Sections</h4>
-                <p>Putting together a page has never been easier than matching together sections. From team presentation to pricing options, you can easily customise and built your pages.</p>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="info">
-                <div class="icon icon-success">
-                  <i class="material-icons">view_carousel</i>
-                </div>
-                <h4 class="info-title">Example Pages</h4>
-                <p>If you want to get inspiration or just show something directly to your clients, you can jump start your development with our pre-built example pages.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="section-components">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-5 col-md-12">
-            <h3 class="title">Basic Components
-              <h6 class="description">The core elements of your website</h6>
-              </h3><h5 class="description">We re-styled every Bootstrap element to make it resemble Material Design and also fit with each other. All the Bootstrap components that you need in a development have been re-design with the new look. Besides the numerous basic elements, we have also created additional classes. All these items will help you take your project to the next level.
-              </h5>
-            
-          </div>
-          <div class="col-lg-6 col-md-12 ml-auto">
-            <div class="image-container">
-              <img class="components-macbook" src="assets/img/section-components/laptop-basics.png" alt="">
-              <img class="table-img" src="assets/img/section-components/table.jpg" alt="">
-              <img class="share-btn-img" src="assets/img/section-components/share-btn.jpg" alt="">
-              <img class="coloured-card-btn-img" src="assets/img/section-components/coloured-card-with-btn.jpg" alt="">
-              <img class="coloured-card-img" src="assets/img/section-components/coloured-card.jpg" alt="">
-              <img class="social-img" src="assets/img/section-components/social-row.jpg" alt="">
-              <img class="pin-btn-img" src="assets/img/section-components/pin-btn.jpg" alt="">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="section section-cards section-dark">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-7">
-            <div class="image-container">
-              <img class="img" src="assets/img/cards-test.png">
-            </div>
-          </div>
-          <div class="col-md-4 ml-auto">
-            <div class="section-description">
-              <h3 class="title">Unconventional Cards</h3>
-              <h6 class="description">One Card for Every Problem</h6>
-              <h5 class="description">We love cards and everybody on the web seems to. We have gone above and beyond with options for you to organise your information. From cards designed for blog posts, to product cards or user profiles, you will have many options to choose from. All the cards follow the material principles and have a design that stands out. </h5>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
     <div class="section section-content" style="padding: 0px 0; margin-top: 0px;">
       <div class="">
         <div class="cd-section" id="teams" style="padding: 0px 0;">
@@ -315,6 +233,65 @@
           </div>
         </div>
     </div>
+    <div class="cd-section" id="testimonials" style="padding: 0px 0;">
+      <div class="testimonials-2 section-dark" style="padding: 0px 0;">>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div id="carouselExampleIndicatorss" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="card card-testimonial card-plain">
+                        <h2 class="title">Testimonios</h2>
+                      <div class="card-body">
+                        <h5 class="card-description">"I speak yell scream directly at the old guard on behalf of the future. I gotta say at that time I’d like to meet Kanye I speak yell scream directly at the old guard on behalf of the future. My brother Chance!!!
+                          <br>Thank you for letting me work on this masterpiece. One of my favorite people."
+                        </h5>
+                        <h4 class="card-title">Kendall Thompson</h4>
+                        <h6 class="card-category text-muted">CEO @ Marketing Digital Ltd.</h6>
+                        <div class="footer">
+                          <i class="material-icons text-warning">star</i>
+                          <i class="material-icons text-warning">star</i>
+                          <i class="material-icons text-warning">star</i>
+                          <i class="material-icons text-warning">star</i>
+                          <i class="material-icons text-warning">star</i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="card card-testimonial card-plain">
+                        <h2 class="title">Testimonios</h2>
+                      <div class="card-body">
+                        <h5 class="card-description">"Thank you Anna for the invite thank you to the whole Vogue team Called I Miss the Old Kanye At the God's last game Chop up the soul Kanye. I promise I will never let the people down. I want a better life for all!!! Pablo Pablo Pablo Pablo! Thank you Anna for the invite thank you to the whole Vogue team."
+                        </h5>
+                        <h4 class="card-title">Christian Louboutin</h4>
+                        <h6 class="card-category text-muted">Designer @ Louboutin &amp; Co.</h6>
+                        <div class="footer">
+                          <i class="material-icons text-warning">star</i>
+                          <i class="material-icons text-warning">star</i>
+                          <i class="material-icons text-warning">star</i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicatorss" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicatorss" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
     <div class="section section-overview" style="padding: 0px 0;">
       <div class="features-5" style="background-image: url('assets/img/features-5.jpg')" style="padding: 0px 0;">
         <div class="col-md-8 ml-auto mr-auto text-center" style="padding: 0px 0;">
