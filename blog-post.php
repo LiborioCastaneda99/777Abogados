@@ -7,6 +7,7 @@ $conexion=$obj->conexion();
 
 $tildes = $conexion->query("SET NAMES 'utf8'");
 $areasPracticas=mysqli_query($conexion, "SELECT id, nombre FROM areas_practicas");
+$areasPracticas_res=mysqli_fetch_row(mysqli_query($conexion, "SELECT id, nombre, descripcion FROM areas_practicas WHERE id=".$_GET['id'].""));
 
 ?>
 <!DOCTYPE html>
@@ -47,51 +48,57 @@ $areasPracticas=mysqli_query($conexion, "SELECT id, nombre FROM areas_practicas"
     }
   </style>
 </head>
-
 <body class="presentation-page sidebar-collapse">
-   
-    <?php require_once ('menu_principal.php'); ?>
-  
-    <div class="page-header header-filter" style="background-image: url('assets/img/img_official.jpeg');height: 40vh; min-height: 40vh;">
-        <div class="container">
+
+  <?php require_once ('menu_principal.php'); ?>
+ 
+  <div class="page-header header-filter header-small" data-parallax="true" style="background-image: url('https://lh3.googleusercontent.com/jR76iA-EVyeTwVygEf-kCnu8_KIaGAzKa55mgiqzqx5LOxuvesrBUUwP-hMakOef0qsKag=w16383'); height: 65vh;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 ml-auto mr-auto text-center">
+          <h1 class="title"><?php  echo $areasPracticas_res[1];?></h1>
+          <h4 class="col-md-10 ml-auto mr-auto text-center"><?php  echo $areasPracticas_res[2];?></h4>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="main main-raised">
+    <div class="container">
+      <div class="section section-text">
+        <div class="row">
+          <div class="col-md-8 ml-auto mr-auto">
+            <h3 class="title">The Castle Looks Different at Night...</h3>
+            <p>This is the paragraph where you can write more details about your product. Keep you user engaged by providing meaningful information. Remember that by this time, the user is curious, otherwise he wouldn&apos;t scroll to get here. Add a button if you want the user to see more. We are here to make life better.
+              <br> <br>
+              And now I look and look around and there&#x2019;s so many Kanyes I&apos;ve been trying to figure out the bed design for the master bedroom at our Hidden Hills compound... and thank you for turning my personal jean jacket into a couture piece.</p>
+            <div class="blockquote undefined">
+              <p>
+                &#x201C;And thank you for turning my personal jean jacket into a couture piece.&#x201D;
+              </p>
+              <small>
+                Kanye West, Producer.
+              </small>
+            </div>
+          </div>
+          <div class="section col-md-10 ml-auto mr-auto">
             <div class="row">
-            <div class="col-md-12">
-                <h1 class="title text-center">¿Quiénes somos?</h1>
+              <div class="col-md-4">
+                <img class="img-raised rounded img-fluid" alt="Raised Image" src="assets/img/examples/blog4.jpg">
+              </div>
+              <div class="col-md-4">
+                <img class="img-raised rounded img-fluid" alt="Raised Image" src="assets/img/examples/blog3.jpg">
+              </div>
+              <div class="col-md-4">
+                <img class="img-raised rounded img-fluid" alt="Raised Image" src="assets/img/examples/blog1.jpg">
+              </div>
             </div>
-            </div>
+          </div>
         </div>
+      </div> 
     </div>
+  </div>
 
-    <div class="main main-raised">
-        <div class="container">
-            <div class="cd-section" id="blogs">
-                <div class="blogs-1" id="blogs-1">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-4 ml-auto mr-auto">
-                                <center><img src="http://gesicom.co/img/mision.png" class="img-fluid w-75" alt=""></center>
-                            </div>
-                            <div class="col-md-8 ml-auto mr-auto">
-                                <h3 class="text-justify" style="font-size:20px; font-style: italic; padding:20px 0;">El bufete de 777Abogados S.A.S, busca la prestación de servicios profesionales a nuestros clientes, en las diferentes ramas del derecho, de manera responsable, ética, honesta, eficiente, y con un alto grado de justicia, equidad y prestigio, protegiendo sus derechos en todos los ámbitos nacionales e internacionales mediante alternativas, capacitaciones y resolución de conflictos jurídicos en la sociedad.</h3>
-                            </div>
-                        </div>
-                        <hr class="w-75 mt-3" style="border-top: 3px dashed #3c4858;">    
-                        <div class="row mt-3">
-                            <div class="col-md-4 ml-auto mr-auto mt-3">
-                                <center><img src="http://gesicom.co/img/vision.png" class="img-fluid w-75" alt=""></center>
-                            </div>
-                            <div class="col-md-8 ml-auto mr-auto  mt-1">
-                                <h3 class="text-justify" style="font-size:20px; font-style: italic; padding:20px 0;">La visión de 777Abogadas S.A.S, es proyectarse y convertirse en la mejor firma de asesoría y consultoría jurídica, contable y tributaria, siendo líder en los servicios profesionales y capacitaciones jurídicas más reputas a nivel nacional e internacional, conviértenos en un referente en cuanto a satisfacción del cliente y resultados.</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-    
-    <?php require_once ('footer.php'); ?>
+<?php require_once ('footer.php'); ?>
 
   <!--   Core JS Files   -->
   <script src="assets/js/core/jquery.min.js" type="text/javascript"></script>

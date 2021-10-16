@@ -1,4 +1,14 @@
-﻿
+﻿<?php
+
+
+require_once "clases/conexion.php";
+$obj= new conectar();
+$conexion=$obj->conexion();
+
+$tildes = $conexion->query("SET NAMES 'utf8'");
+$areasPracticas=mysqli_query($conexion, "SELECT id, nombre FROM areas_practicas");
+
+?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -19,8 +29,11 @@
   <meta itemprop="name" content="777Abogados">
   <meta itemprop="description" content="Start Your Development With A Badass Bootstrap 4 UI Kit inspired by Material Design">
   <!--     Fonts and icons     -->
-  <link rel="stylesheet" type="text/css" href="assets/css/css.css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Andada+Pro:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/css/css.css?Material+Icons">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
   <!-- CSS Files -->
   <link href="assets/css/material-kit.min.css?v=2.2.0" rel="stylesheet">
   <!-- CSS Just for demo purpose, don't include it in your project -->
@@ -70,10 +83,10 @@
                                             </div>
                                         </div>
                                         <div class="col-md-7">
-                                            <h3 class="card-title">
-                                                <i class="material-icons">trending_up</i> Responsabilidad
+                                            <h3 class="card-title text-center">
+                                                <i class="material-icons">balance</i> Responsabilidad
                                             </h3>
-                                            <p class="card-description text-justify" style="font-size:21px;">
+                                            <p class="card-description text-center" style="font-size:18px;">
                                             La responsabilidad es frente nosotros mismos, a nuestros clientes, a la comunidad en general, por ende ejercemos nuestro trabajo con vocación y pasión para responder a la altura de la gestión encomendada.
                                             </p>
                                         </div>
@@ -82,10 +95,10 @@
                                 <div class="card card-plain card-blog" style="margin-bottom: -10px; margin-top: 20px;">
                                     <div class="row">
                                         <div class="col-md-7">
-                                            <h3 class="card-title">
-                                                <i class="material-icons">trending_up</i> Ética, lealtad y honestidad
+                                            <h3 class="card-title text-center">
+                                                <i class="material-icons">balance</i> Ética, lealtad y honestidad
                                             </h3>
-                                            <p class="card-description text-justify" style="font-size:21px;">
+                                            <p class="card-description text-center" style="font-size:18px;">
                                                 Este bufete de abogados, siempre lucha y combate de manera frontal cualquier práctica que atente a la ética y la deontología de esta profesión. Tenemos como sagrado el secreto profesional. <br>
                                                 Queremos que se depure la concepción de abogacía, y que se triunfe con el conocimiento, con las destrezas jurídicas, no con trampa, deshonestidad y corrupción.
                                             </p>
@@ -107,10 +120,10 @@
                                         </div>
                                     </div>
                                     <div class="col-md-7">
-                                        <h3 class="card-title">
-                                            <i class="material-icons">trending_up</i> Responsabilidad
+                                            <h3 class="card-title text-center">
+                                            <i class="material-icons">balance</i> Responsabilidad
                                         </h3>
-                                        <p class="card-description text-justify" style="font-size:21px;">
+                                        <p class="card-description text-center" style="font-size:18px;">
                                         La responsabilidad es frente nosotros mismos, a nuestros clientes, a la comunidad en general, por ende ejercemos nuestro trabajo con vocación y pasión para responder a la altura de la gestión encomendada.
                                         </p>
                                     </div>
@@ -119,10 +132,10 @@
                                 <div class="card card-plain card-blog" style="margin-bottom: -10px; margin-top: 20px;">
                                     <div class="row">
                                     <div class="col-md-7">
-                                        <h3 class="card-title">
-                                            <i class="material-icons">trending_up</i> Ética, lealtad y honestidad
+                                            <h3 class="card-title text-center">
+                                            <i class="material-icons">balance</i> Ética, lealtad y honestidad
                                         </h3>
-                                        <p class="card-description text-justify" style="font-size:21px;">
+                                        <p class="card-description text-center" style="font-size:18px;">
                                             Este bufete de abogados, siempre lucha y combate de manera frontal cualquier práctica que atente a la ética y la deontología de esta profesión. Tenemos como sagrado el secreto profesional. <br>
                                             Queremos que se depure la concepción de abogacía, y que se triunfe con el conocimiento, con las destrezas jurídicas, no con trampa, deshonestidad y corrupción.
                                         </p>

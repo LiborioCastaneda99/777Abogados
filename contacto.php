@@ -1,4 +1,14 @@
-﻿
+﻿<?php
+
+
+require_once "clases/conexion.php";
+$obj= new conectar();
+$conexion=$obj->conexion();
+
+$tildes = $conexion->query("SET NAMES 'utf8'");
+$areasPracticas=mysqli_query($conexion, "SELECT id, nombre FROM areas_practicas");
+
+?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -19,7 +29,10 @@
   <meta itemprop="name" content="777Abogados">
   <meta itemprop="description" content="Start Your Development With A Badass Bootstrap 4 UI Kit inspired by Material Design">
   <!--     Fonts and icons     -->
-  <link rel="stylesheet" type="text/css" href="assets/css/css.css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Andada+Pro:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/css/css.css?Material+Icons">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
   <!-- CSS Files -->
   <link href="assets/css/material-kit.min.css?v=2.2.0" rel="stylesheet">

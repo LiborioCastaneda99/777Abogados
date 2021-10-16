@@ -22,54 +22,15 @@
                 <i class="material-icons">apps</i> Áreas Practicas
                 </a>
                 <div class="dropdown-menu dropdown-with-icons" style="overflow: auto; height: 400px;">
-                <a href="presentation.html" class="dropdown-item">
-                    <i class="material-icons">line_style</i> Presentation
-                </a>
-                <a href="index.php" class="dropdown-item">
-                    <i class="material-icons">layers</i> Components
-                </a>
-                <a href="index.php" class="dropdown-item">
-                    <i class="material-icons">layers</i> Components
-                </a>
-                <a href="index.php" class="dropdown-item">
-                    <i class="material-icons">layers</i> Components
-                </a>
-                <a href="index.php" class="dropdown-item">
-                    <i class="material-icons">layers</i> Components
-                </a>
-                <a href="index.php" class="dropdown-item">
-                    <i class="material-icons">layers</i> Components
-                </a>
-                <a href="index.php" class="dropdown-item">
-                    <i class="material-icons">layers</i> Components
-                </a>
-                <a href="index.php" class="dropdown-item">
-                    <i class="material-icons">layers</i> Components
-                </a>
-                <a href="index.php" class="dropdown-item">
-                    <i class="material-icons">layers</i> Components
-                </a>
-                <a href="index.php" class="dropdown-item">
-                    <i class="material-icons">layers</i> Components
-                </a>
-                <a href="index.php" class="dropdown-item">
-                    <i class="material-icons">layers</i> Components
-                </a>
-                <a href="index.php" class="dropdown-item">
-                    <i class="material-icons">layers</i> Components
-                </a>
-                <a href="index.php" class="dropdown-item">
-                    <i class="material-icons">layers</i> Components
-                </a>
-                <a href="index.php" class="dropdown-item">
-                    <i class="material-icons">layers</i> Components
-                </a>
-                <a href="index.php" class="dropdown-item">
-                    <i class="material-icons">layers</i> Components
-                </a>
-                <a href="docs/2.1/getting-started/introduction.html" class="dropdown-item">
-                    <i class="material-icons">content_paste</i> Documentation
-                </a>
+                <?php 
+				while ($row=mysqli_fetch_row($areasPracticas)) {
+					?>
+                        <a href="blog-post.php?id=<?php echo $row[0];?>" class="dropdown-item">
+                            <i class="material-icons">line_style</i> <?php echo $row[1]; ?>
+                        </a>
+					<?php 
+				}
+				?>
                 </div>
             </li>
             <li class="nav-item">
