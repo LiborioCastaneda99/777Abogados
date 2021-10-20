@@ -18,7 +18,7 @@ $areasPracticas=mysqli_query($conexion, "SELECT id, nombre FROM areas_practicas"
   <link rel="icon" type="image/png" href="assets/img/favicon.png">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <title>
-    777Abogados
+    777ABOGADOS
   </title>
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport'>
   <!-- Extra details for Live View on GitHub Pages -->
@@ -42,8 +42,8 @@ $areasPracticas=mysqli_query($conexion, "SELECT id, nombre FROM areas_practicas"
   <style>
     .index-page .header-filter:after, .presentation-page .header-filter:after {
         background: rgba(0,0,0,.0);
-        background: linear-gradient(45deg,rgba(0,0,0,.0),rgba(0,0,0,.0));
-        background: -webkit-linear-gradient(135deg,rgba(0,0,0,.0),rgba(0,0,0,.0));
+        background: linear-gradient(45deg,rgba(6,6,6,.6),rgba(6,6,6,.6));
+        background: -webkit-linear-gradient(135deg,rgba(6,6,6,.6),rgba(6,6,6,.6));
     }
   </style>
 </head>
@@ -52,7 +52,7 @@ $areasPracticas=mysqli_query($conexion, "SELECT id, nombre FROM areas_practicas"
 
   <?php require_once ('menu_principal.php'); ?>
   
-  <div class="page-header header-filter clear-filter" data-parallax="true" style="background-image: url('assets/img/img_official.jpeg');">
+  <div class="page-header header-filter clear-filter" data-parallax="true" style="background-image: url('assets/img/Slider_1.png');">
     <div class="container">
       <div class="row">
         <div class="col-md-8 ml-auto mr-auto">

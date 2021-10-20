@@ -52,7 +52,7 @@ $areasPracticas_res=mysqli_fetch_row(mysqli_query($conexion, "SELECT id, nombre,
 
   <?php require_once ('menu_principal.php'); ?>
  
-  <div class="page-header header-filter header-small" data-parallax="true" style="background-image: url('https://lh3.googleusercontent.com/jR76iA-EVyeTwVygEf-kCnu8_KIaGAzKa55mgiqzqx5LOxuvesrBUUwP-hMakOef0qsKag=w16383'); height: 65vh;">
+  <div class="page-header header-filter header-small" data-parallax="true" style="background-image: url('assets/img/areas_practicas.png'); height: 65vh;">
     <div class="container">
       <div class="row">
         <div class="col-md-8 ml-auto mr-auto text-center">
