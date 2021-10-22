@@ -30,7 +30,7 @@ $areasPracticas=mysqli_query($conexion, "SELECT id, nombre FROM areas_practicas"
     
     <?php require_once ('btn-whatsapp.php'); ?>
   
-    <div class="page-header header-filter" style="background-image: url('assets/img/img_official.jpeg');height: 40vh; min-height: 40vh;">
+    <div class="page-header header-filter" style="background-image: url('assets/img/img____.png');height: 50vh; min-height: 50vh;">
         <div class="container">
             <div class="row">
             <div class="col-md-12">

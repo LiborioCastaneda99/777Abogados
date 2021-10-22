@@ -1,9 +1,13 @@
 
   <footer class="footer">
     <div class="container">
-      <a class="footer-brand" href="index.php">777Abogados</a>
+      <div class="copyright float-left">
+        <?= date("Y"); ?>, <i class="material-icons">favorite</i> Sitio Web Desarrollado por
+        <a href="#" target="_blank">LiborioSoftware</a>.
+      </div>
+      <!-- <a class="footer-brand" href="index.php">777Abogados</a> -->
     
-      <ul class="social-buttons float-right">
+      <ul class="social-buttons float-center">
         <li>
           <a href="#" target="_blank" class="btn btn-just-icon btn-link btn-facebook">
             <i class="fa fa-facebook"></i>
