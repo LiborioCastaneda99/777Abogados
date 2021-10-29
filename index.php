@@ -40,7 +40,7 @@ $areasPracticas=mysqli_query($conexion, "SELECT id, nombre FROM areas_practicas"
       </ol> -->
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <div class="page-header header-filter" style="background-image: url('assets/img/img_official.jpeg');">
+          <div class="page-header header-filter" style="background-image: url('assets/img/slider_2.jpeg');">
             <div class="container">
               <div class="row">
                 <!-- <div class="col-md-6 text-left">
@@ -67,7 +67,7 @@ $areasPracticas=mysqli_query($conexion, "SELECT id, nombre FROM areas_practicas"
           </div>
         </div>
         <div class="carousel-item">
-          <div class="page-header header-filter" style="background-image: url('assets/img/Slider_1.png');">
+          <div class="page-header header-filter" style="background-image: url('assets/img/img_official.jpeg');">
             <div class="container">
               <div class="row">
                 <!-- <div class="col-md-8 ml-auto mr-auto text-center">
@@ -95,7 +95,7 @@ $areasPracticas=mysqli_query($conexion, "SELECT id, nombre FROM areas_practicas"
           </div>
         </div>
         <div class="carousel-item">
-          <div class="page-header header-filter" style="background-image: url('assets/img/dg3.jpg');">
+          <div class="page-header header-filter" style="background-image: url('assets/img/Slider_1.png');">
             <div class="container">
               <div class="row">
                 <!-- <div class="col-md-7 ml-auto text-right">
@@ -322,7 +322,7 @@ $areasPracticas=mysqli_query($conexion, "SELECT id, nombre FROM areas_practicas"
           </div>
       </div>
       <div class="cd-section" id="testimonials" style="padding: 0px 0;">
-        <div class="testimonials-2 section-dark" style="padding: 0px 0;">>
+        <div class="testimonials-2 section-dark" style="padding: 0px 0;">
           <div class="container">
             <div class="row">
               <div class="col-md-12">

@@ -12,14 +12,15 @@ $result=mysqli_query($conexion,$sql);
 
 <div>
 	<div class="table-responsive">
-
+	
 		<table class="table table-hover small" id="cargarClientesVerificar">
-			<thead class="text-center bg-primary">
+			<thead class="text-center" style="background: #d2a146;">
 				<tr>
-					<td style="color:#fff; font-size:14px;">Nombres</td>
-					<td style="color:#fff; font-size:14px;">Apellidos</td>
-					<td style="color:#fff; font-size:14px;">Correo</td>
-					<td style="color:#fff; font-size:14px;">Mensaje</td>
+					<td style="color:#fff; font-size:14px; width: 17%;">Nombres</td>
+					<td style="color:#fff; font-size:14px; width: 17%;">Apellidos</td>
+					<td style="color:#fff; font-size:14px; width: 17%;">Correo</td>
+					<td style="color:#fff; font-size:14px; width: 40%;">Mensaje</td>
+					<td style="color:#fff; font-size:14px; width: 9%;">Responder</td>
 				</tr>
 			</thead>
 			
@@ -28,10 +29,17 @@ $result=mysqli_query($conexion,$sql);
 				while ($mostrar=mysqli_fetch_row($result)) {
 					?>
 						<tr class="text-center">
-							<td><?php echo strtoupper($mostrar[1]); ?></td>
-							<td><?php echo strtoupper($mostrar[2]); ?></td>
-							<td><?php echo strtoupper($mostrar[3]); ?></td>
-							<td><?php echo strtoupper($mostrar[4]); ?></td>
+							<td><?= ucwords( $n = strtolower($mostrar[1])); ?></td>
+							<td><?= ucwords( $a = strtolower($mostrar[2])); ?></td>
+							<td><?= ucwords( $c = strtolower($mostrar[3])); ?></td>
+							<td><b><?= ($mostrar[4]); ?></b></td>
+							<td>
+								<span class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#modalEditar" onclick="agregaFrmActualizar('<?php echo $mostrar[0] ?>')">
+									<span class="material-icons">
+										forward_to_inbox
+									</span>
+								</span>
+							</td>
 						</tr>
 					<?php 
 				}

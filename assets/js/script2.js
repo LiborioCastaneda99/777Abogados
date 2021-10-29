@@ -16,9 +16,9 @@ popupWhatsApp = () => {
   
   sendBtn.addEventListener("click", () => {
   let msg = document.getElementById('whats-in').value;
-  let relmsg = msg.replace(/ /g,"%20");
+  let relmsg = msg.replace(/ /g,"+");
      
-   window.open('https://wa.me/521557153381?text='+relmsg, '_blank'); 
+   window.open('https://api.whatsapp.com/send?phone=573244768486&text='+relmsg+'&app_absent=1&mobile_only=false', '_blank'); 
   
   });
 
