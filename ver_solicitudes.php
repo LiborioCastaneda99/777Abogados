@@ -86,8 +86,9 @@ $areasPracticas=mysqli_query($conexion, "SELECT id, nombre FROM areas_practicas"
             </form>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-outline-danger" id="close-modal" data-dismiss="modal">Cerrar</button>
-            <button type="button" class="btn btn-outline-primary" id="btnResponder">Responder</button>
+            
+            <button type="button" class="btn btn-secondary" id="close-modal" data-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-primary" id="btnResponder">Responder</button>
           </div>
         </div>
       </div>

@@ -7,12 +7,15 @@
 </title>   
 <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport'>
 <!-- Extra details for Live View on GitHub Pages -->
+
 <!--  Social tags      -->
-<meta name="keywords" content="bootstrap 4, bootstrap 4 uit kit, bootstrap 4 kit, material, material kit, creative tim, html kit, html css template, web template, bootstrap, bootstrap 4, css3 template, frontend, responsive bootstrap template, bootstrap ui kit, responsive ui kit, premium bootstrap 4 ui kit, premium template, bootstrap 4 template">
-<meta name="description" content="Start Your Development With A Badass Bootstrap 4 UI Kit inspired by Material Design">
+<meta name="keywords" content="777, 777abogados, 777abogado, abogados, abogado, 777 abogados, 777 abogado">
+<meta name="description" content="El bufete de 777Abogados S.A.S, busca la prestación de servicios profesionales a nuestros clientes, en las diferentes ramas del derecho, de manera responsable, ética, honesta, eficiente, y con un alto grado de justicia, equidad y prestigio, protegiendo sus derechos en todos los ámbitos nacionales e internacionales mediante alternativas, capacitaciones y resolución de conflictos jurídicos en la sociedad">
+
 <!-- Schema.org markup for Google+ -->
 <meta itemprop="name" content="777Abogados">
-<meta itemprop="description" content="Start Your Development With A Badass Bootstrap 4 UI Kit inspired by Material Design">
+<meta itemprop="description" content="El bufete de 777Abogados S.A.S, busca la prestación de servicios profesionales a nuestros clientes, en las diferentes ramas del derecho, de manera responsable, ética, honesta, eficiente, y con un alto grado de justicia, equidad y prestigio, protegiendo sus derechos en todos los ámbitos nacionales e internacionales mediante alternativas, capacitaciones y resolución de conflictos jurídicos en la sociedad">
+
 <!--     Fonts and icons     -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

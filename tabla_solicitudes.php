@@ -20,7 +20,7 @@ $result=mysqli_query($conexion,$sql);
 					<td style="color:#fff; font-size:14px; width: 17%;">Apellidos</td>
 					<td style="color:#fff; font-size:14px; width: 17%;">Correo</td>
 					<td style="color:#fff; font-size:14px; width: 40%;">Mensaje</td>
-					<td style="color:#fff; font-size:14px; width: 9%;">Responder</td>
+					<td style="color:#fff; font-size:14px; width: 9%;" class="td-actions">Responder</td>
 				</tr>
 			</thead>
 			
@@ -34,7 +34,7 @@ $result=mysqli_query($conexion,$sql);
 							<td><?= ucwords( $c = strtolower($mostrar[3])); ?></td>
 							<td><b><?= ($mostrar[4]); ?></b></td>
 							<td>
-								<span class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#modalEditar" onclick="agregaFrmActualizar('<?php echo $mostrar[0] ?>')">
+								<span class="btn btn-outline-primary btn-sm btn-round" data-toggle="modal" data-target="#modalEditar" onclick="agregaFrmActualizar('<?php echo $mostrar[0] ?>')">
 									<span class="material-icons">
 										forward_to_inbox
 									</span>

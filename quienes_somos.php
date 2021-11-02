@@ -53,7 +53,11 @@ $areasPracticas=mysqli_query($conexion, "SELECT id, nombre FROM areas_practicas"
                                 <h3 class="text-justify" style="font-size:20px; font-style: italic; padding:20px 0;">El bufete de 777Abogados S.A.S, busca la prestación de servicios profesionales a nuestros clientes, en las diferentes ramas del derecho, de manera responsable, ética, honesta, eficiente, y con un alto grado de justicia, equidad y prestigio, protegiendo sus derechos en todos los ámbitos nacionales e internacionales mediante alternativas, capacitaciones y resolución de conflictos jurídicos en la sociedad.</h3>
                             </div>
                         </div>
-                        <hr class="w-75 mt-3" style="border-top: 3px dashed #3c4858;">    
+                        
+                        <div class="progress w-75 mt-3" style="margin: 0px auto;">
+                            <div class="progress-bar progress-bar-striped progress-bar-primary" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>    
+
                         <div class="row mt-3">
                             <div class="col-md-4 ml-auto mr-auto mt-3">
                                 <center><img src="http://gesicom.co/img/vision.png" class="img-fluid w-75" alt=""></center>
